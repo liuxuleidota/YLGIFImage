@@ -32,5 +32,6 @@
 @property (nonatomic, readonly) NSUInteger loopCount;
 
 - (UIImage*)getFrameWithIndex:(NSUInteger)idx;
++ (id)imageNamed:(NSString *)name;
 
 @end
